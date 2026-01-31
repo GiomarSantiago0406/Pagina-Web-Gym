@@ -1,0 +1,102 @@
+/* * ============================== */
+/* *    ======= General =======     */
+/* * ============================== */
+/**style.css****/
+* {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+/* * ============================== */
+/* *    ======= Cuerpo =======      */
+/* * ============================== */
+
+body {
+  background-color: #333;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h2 {
+  justify-content: center;
+  background-color: #333;
+  color: red;
+  font-size: 2rem;
+  margin-bottom: 2px;
+  letter-spacing: 3px;
+}
+
+/* * ============================== */
+/* *  =======     Menú      ======= */
+/* * ============================== */
+
+#navegador {
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  letter-spacing: 2px;
+  font-size: 1.2em;
+  padding: 2rem 0;
+}
+
+#navegador li {
+  margin: 0px 5px 5px 0px;
+  padding: 0.1em 1em 0.5em 1em;
+  background-color: black;
+  width: 13%;
+  float: left;
+  list-style: none;
+  position: relative;
+  border-radius: 15px;
+}
+
+/* * ============================== */
+/* * ======= Menú:sombreado ======= */
+/* * ============================== */
+
+#navegador li :hover {
+  background-color: rgb(20, 20, 20);
+}
+
+#navegador li a:link,
+#navegador li a:visited {
+  color: white;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+#navegador li a:hover,
+#navegador li a:active {
+  color: rgb(189, 189, 189);
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+#submenu1,
+#submenu2 {
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  background-color: black;
+  font: normal 00.8em arial;
+  padding: 0.2em 0.5em;
+  display: none;
+}
+
+/* * ============================== */
+/* *    ======= Imagen =======      */
+/* * ============================== */
+
+.imagen {
+  height: 490px;
+  width: 1000px;
+  border-radius: 30px;
+}
+
+.contenedor {
+  height: 490px;
+  width: 1000px;
+  margin-left: 200px;
+}

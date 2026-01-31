@@ -1,0 +1,121 @@
+/* * ============================== */
+/* *    ======= General =======     */
+/* * ============================== */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* * ============================== */
+/* *    ======= Cuerpo =======      */
+/* * ============================== */
+
+body {
+  background-color: #333;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#titulo {
+  justify-content: center;
+  background-color: #333;
+  color: white;
+  font-size: 2rem;
+  height: 70px;
+  width: auto;
+}
+
+/* * ============================== */
+/* *  =======     Menú      ======= */
+/* * ============================== */
+
+#navegador {
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  letter-spacing: 2px;
+  font-size: 1.2em;
+  padding: 2rem 0;
+}
+
+#navegador li {
+  margin: 0px 5px 5px 0px;
+  padding: 0.1em 1em 0.5em 1em;
+  background-color: black;
+  width: 13%;
+  float: left;
+  list-style: none;
+  position: relative;
+  border-radius: 15px;
+}
+
+/* * ============================== */
+/* * ======= Menú:sombreado ======= */
+/* * ============================== */
+
+#navegador li :hover {
+  background-color: rgb(20, 20, 20);
+}
+
+#navegador li a:link,
+#navegador li a:visited {
+  color: white;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+#navegador li a:hover,
+#navegador li a:active {
+  color: rgb(189, 189, 189);
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+#submenu1,
+#submenu2 {
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  background-color: black;
+  font: normal 00.8em arial;
+  padding: 0.2em 0.5em;
+  display: none;
+}
+
+/* * ============================== */
+/* *   ======= Formulario =======   */
+/* * ============================== */
+
+h2 {
+  color: red;
+}
+
+label {
+  color: white;
+}
+
+input,
+button {
+  border-color: red;
+  align-content: center;
+  align-items: center;
+  float: right;
+}
+
+.container1 {
+  width: 300px;
+  height: 100px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.container2 {
+  width: 300px;
+  height: 100px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}

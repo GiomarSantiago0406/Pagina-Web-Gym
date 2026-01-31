@@ -1,0 +1,148 @@
+/* * ============================== */
+/* *    ======= General =======     */
+/* * ============================== */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* * ============================== */
+/* *    ======= Cuerpo =======      */
+/* * ============================== */
+
+body {
+  background-color: #333;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* * ============================== */
+/* *  =======     Menú      ======= */
+/* * ============================== */
+
+#navegador {
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  letter-spacing: 2px;
+  font-size: 1.2em;
+  padding: 2rem 0;
+}
+
+#navegador li {
+  margin: 0px 5px 5px 0px;
+  padding: 0.1em 1em 0.5em 1em;
+  background-color: black;
+  width: 13%;
+  float: left;
+  list-style: none;
+  position: relative;
+  border-radius: 15px;
+}
+
+/* * ============================== */
+/* * ======= Menú:sombreado ======= */
+/* * ============================== */
+
+#navegador li :hover {
+  background-color: rgb(20, 20, 20);
+}
+
+#navegador li a:link,
+#navegador li a:visited {
+  color: white;
+  text-decoration: none;
+  transition: all 0.4s;
+}
+
+#navegador li a:hover,
+#navegador li a:active {
+  color: rgb(189, 189, 189);
+  text-decoration: none;
+  transition: all 0.4s;
+}
+
+#submenu1,
+#submenu2 {
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  background-color: black;
+  font: normal 00.8em arial;
+  padding: 0.2em 0.5em;
+  display: none;
+}
+
+/* * ============================== */
+/* *    ======= Imagen =======      */
+/* * ============================== */
+
+.imagen {
+  height: 720px;
+  width: 1200px;
+  border-radius: 30px;
+}
+
+.subtitulo {
+  color: yellow;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  letter-spacing: 2px;
+}
+
+/* * ============================== */
+/* * ======= Contenedores =======   */
+/* * ============================== */
+
+.contenedor1 {
+  width: 350px;
+  height: 390px;
+  border-radius: 8px;
+  flex-wrap: wrap;
+  margin: 20px;
+  margin-left: 120px;
+  text-align: justify;
+  float: left;
+  border: red solid;
+}
+
+.contenedor2 {
+  width: 350px;
+  height: 390px;
+  border-radius: 8px;
+  flex-wrap: wrap;
+  margin-left: 120px;
+  margin: 20px;
+  text-align: justify;
+  float: left;
+  border: red solid;
+}
+
+.contenedor3 {
+  width: 350px;
+  height: 390px;
+  border-radius: 8px;
+  flex-wrap: wrap;
+  margin-left: 120px;
+  margin: 20px;
+  text-align: justify;
+  float: left;
+  border: red solid;
+}
+
+.sub {
+  color: red;
+  text-align: center;
+  margin-left: 25px;
+  font-size: 30px;
+}
+
+article {
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: white;
+  margin: 5px;
+  padding: 15px;
+}

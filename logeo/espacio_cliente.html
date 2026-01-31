@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym</title>
+    <link rel="stylesheet" href="css/style5.css">
+    <script src="js/java.js"></script>
+    <script src="js/formulario.js"></script>
+</head>
+<body>
+
+    <!------------------------------->
+    <!------ Menú desplegable  ------>
+    <!------------------------------->
+    <div id="navegador">
+
+
+        <ul>
+
+            <li><a href="index.html">Inicio</a></li>
+
+
+                        <!----------------------------->
+                        <!-----    Los submenús  ------>
+                        <!----------------------------->
+
+            <li id="menu1" onmouseover="ver(1)" onmouseout="ocultar(1)"> 
+                <a href="#">Locales</a>
+                        <div id="submenu1">
+                            <p><a href="san_borja.html">San Borja</a></p>
+                            <p><a href="san_isidro.html">San Isidro</a></p>
+                            <p><a href="miraflores.html">La Molina</a></p>
+                            <p><a href="ate.html">Ate</a></p>
+                        </div>
+            
+            </li>
+
+            <li><a href="planes.html">Planes</a></li>
+
+                        <!----------------------------->
+                        <!-----    Los submenús  ------>
+                        <!----------------------------->
+
+            <li id="menu2" onmouseover="ver(2)" onmouseout="ocultar(2)">
+                <a href="#">Nosotros</a>
+                <div id="submenu2">
+                    <p><a href="historia.html">Historia</a></p>
+                    <p><a href="vision.html">Visión</a></p>
+                    <p><a href="mision.html">Misión</a></p>
+                </div>
+
+            </li>
+
+            <li><a href="espacio_cliente.html">Espacio Cliente</a></li>
+            
+        </ul>
+
+    </div>
+    
+    <!----------------------------->
+    <!-----    Formulario    ------>
+    <!----------------------------->
+
+
+
+    <!--------Envío de correo--------->
+
+
+    <div class="container1">
+        <h2>Registro</h2>
+
+        <label>Correo :</label>
+        <input id="correo" type="email"> <br>
+
+        <label>Contraseña :</label>
+        <input id="contraseña" type="password"> <br>
+
+        <button onclick="RegistrarUser()">Enviar</button>
+    </div>
+
+
+
+    <!--------Envío de correo--------->
+
+
+    <div class="container2">
+        <h2>Acceder</h2>
+
+        <label>Correo :</label>
+        <input id="correo2" type="email" placeholder="Ingesa email"><br>
+        
+        <label>Contraseña :</label>
+        <input id="contraseña2" type="password" placeholder="Ingresa contraseña"><br>
+
+        <button onclick="IngresoUser()">Acceder</button>
+    </div>
+
+
+
+
+    <!------------------------------------>
+    <!----- Srcript - Autentication ------>
+    <!------------------------------------>
+
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+
+<!--    TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-analytics.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-auth.js"></script>
+
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+var firebaseConfig = {
+    apiKey: "AIzaSyDG7Df3pY4hi6DLfE0g49Y67n3Lrv2CB18",
+    authDomain: "evidencia4-6a469.firebaseapp.com",
+    projectId: "evidencia4-6a469",
+    storageBucket: "evidencia4-6a469.appspot.com",
+    messagingSenderId: "649325918578",
+    appId: "1:649325918578:web:2ac1896d9976d50047c5eb",
+    measurementId: "G-XFN7S6GVRM"
+};
+  // Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+firebase.analytics();
+</script>
+
+
+
+</body>
+</html>

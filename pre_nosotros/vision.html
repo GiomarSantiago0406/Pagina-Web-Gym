@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym</title>
+    <link rel="stylesheet" href="css/style4.css">
+    <script src="js/java.js"></script>
+</head>
+<body>
+
+    <!------------------------------->
+    <!------ Menú desplegable  ------>
+    <!------------------------------->
+    <div id="navegador">
+
+
+        <ul>
+
+            <li><a href="index.html">Inicio</a></li>
+
+
+                        <!----------------------------->
+                        <!-----    Los submenús  ------>
+                        <!----------------------------->
+
+            <li id="menu1" onmouseover="ver(1)" onmouseout="ocultar(1)"> 
+                <a href="#">Locales</a>
+                        <div id="submenu1">
+                            <p><a href="san_borja.html">San Borja</a></p>
+                            <p><a href="san_isidro.html">San Isidro</a></p>
+                            <p><a href="miraflores.html">La Molina</a></p>
+                            <p><a href="ate.html">Ate</a></p>
+                        </div>
+            
+            </li>
+
+            <li><a href="planes.html">Planes</a></li>
+
+                        <!----------------------------->
+                        <!-----    Los submenús  ------>
+                        <!----------------------------->
+
+            <li id="menu2" onmouseover="ver(2)" onmouseout="ocultar(2)">
+                <a href="#">Nosotros</a>
+                <div id="submenu2">
+                    <p><a href="historia.html">Historia</a></p>
+                    <p><a href="vision.html">Visión</a></p>
+                    <p><a href="mision.html">Misión</a></p>
+                </div>
+
+            </li>
+
+            <li><a href="espacio_cliente.html">Espacio Cliente</a></li>
+            
+        </ul>
+
+    </div>
+
+    <!-------------------------------->
+    <!------    CONTENEDORES     ----->
+    <!-------------------------------->
+
+    <div class="contenedor1">
+
+        <h2>Visión</h2>
+
+
+        <article>
+            Contribuir al desarrollo integral de los clientes mediante el diseño y la aplicación de un conjunto de servicios que fortalezcan la salud física y mental. <br>
+            Ayudar a nuestros socios a crear y mantener una excelente condición física a través de la nutrición y programas de entrenamiento. <br>
+            Inculcar en niños, jóvenes y adultos, el valor de la salud y el ejercicio. <br>
+            Mejorar la calidad de vida de las comunidades a través de la filosofía del ejercicio, programas y productos de nutrición.
+        </article>
+        
+
+
+            <!-------------------------------->
+            <!------   Imagen del giro   ----->
+            <!-------------------------------->
+
+            <div class="contenedor-carta">
+                    <div class="carta">
+    
+                        <div class="frente">  <img class="fit" src="img/Smarfit2.JPG">  </div>
+    
+    
+    
+                    </div>
+    
+            </div>
+
+    </div>
+
+
+
+    <div class="contenedor2">
+
+            <div>
+                <img class="imagen" src="img/Historia.JPG">
+            </div>
+
+    </div>
+
+    
+
+
+
+    <script src="js/anime.min.js"></script>
+    <script src="js/historia.js"></script>
+</body>
+</html>
